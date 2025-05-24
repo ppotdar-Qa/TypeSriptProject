@@ -15,7 +15,7 @@ test("RadioBtn", async({page})=>{
 
        expect(radiobtnstatus).toBeTruthy();
 
-        await console.log("test case passed");git status 
+       console.log("test case passed")
 
        
 
