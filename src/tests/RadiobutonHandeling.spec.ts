@@ -15,7 +15,7 @@ test("RadioBtn", async({page})=>{
 
        expect(radiobtnstatus).toBeTruthy();
 
-       console.log("test case passed" );
+       console.log("test case passed");
 
        
 
