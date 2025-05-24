@@ -12,10 +12,10 @@ test("RadioBtn", async({page})=>{
        await radioBtn.check({ force: true })
 
        const radiobtnstatus= await page.getByRole("radio" , {name:'blue'}).isChecked();
-       
-
 
        expect(radiobtnstatus).toBeTruthy();
+
+        await console.log("test case passed");git status 
 
        
 
