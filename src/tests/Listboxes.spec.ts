@@ -17,5 +17,7 @@ test("Dropdown Selection", async ({ page }) => {
         const selectedValue = await dropdown.inputValue();
         console.log(`Selected Value: ${selectedValue}`);
         expect(selectedValue).toEqual("Option 2");
+
+        console.log("Testcase passed");
     }
 });
